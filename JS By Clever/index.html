@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="someText"></p>
+    <script>
+        let students =`[
+        {
+            "name":"Yunus",
+            "age": 20,
+            "height":180 
+        },
+        {
+            "name":"Siddique",
+            "age": 20,
+            "height":178 
+        }
+    ]`
+    console.log(JSON.parse(students)[1].age);
+    </script>
+    
+</body>
+</html>
